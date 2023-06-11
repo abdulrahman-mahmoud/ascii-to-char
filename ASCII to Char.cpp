@@ -1,11 +1,10 @@
 #include <iostream>
-using namespace std;
-int main(){
-    int a ;
-    cout << "===================================================="<< endl;
-    cout << "========== converting form ascii to char ===========" << endl;
-    cout << "====================================================" << endl; 
-    cin >>  a ;
-    cout << char(a) << endl;
-
+int main() {
+    int a {};
+    std::cout << "===================================================="<< std::endl;
+    std::cout << "========== converting form ascii to char ===========" << std::endl;
+    std::cout << "====================================================" << std::endl; 
+    std::cin >> a;
+    std::cout << char(a) << std::endl;
+    return 0;
 }
